@@ -1,6 +1,6 @@
 # D-MAKER (Night Edition)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20400637.svg)](https://doi.org/10.5281/zenodo.20400637)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20400637-blue)](https://doi.org/10.5281/zenodo.20400637)
 
 Companion code for the paper:
 
