@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software in academic work, please cite the accompanying paper."
 title: "D-MAKER: Distributed Evidential Reasoning for Interpretable Collaborative Inference"
+doi: "10.5281/zenodo.20400637"
 url: "https://github.com/MarkusHaoranZhang/dmaker_night"
 repository-code: "https://github.com/MarkusHaoranZhang/dmaker_night"
 authors:

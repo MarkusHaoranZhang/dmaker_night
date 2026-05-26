@@ -1,5 +1,7 @@
 # D-MAKER (Night Edition)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20400637.svg)](https://doi.org/10.5281/zenodo.20400637)
+
 Companion code for the paper:
 
 **"Distributed Evidential Reasoning for Interpretable Collaborative Inference: The D-MAKER Framework"**
@@ -195,6 +197,20 @@ If you use this software in academic work, please cite the accompanying paper:
   author  = {Zhang, Haoran and Xing, Lining and Zhou, Zhijie and Zhou, Guohui
              and He, Wei and Zhang, Yuanlong and Li, Jun},
   year    = {2026}
+}
+```
+
+The software itself is permanently archived on Zenodo and can be cited as:
+
+```bibtex
+@software{zhang2026dmaker_software,
+  author    = {Zhang, Haoran and Xing, Lining and Zhou, Zhijie and Zhou, Guohui
+               and He, Wei and Zhang, Yuanlong and Li, Jun},
+  title     = {D-MAKER: Distributed Evidential Reasoning for Interpretable Collaborative Inference},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.20400637},
+  url       = {https://doi.org/10.5281/zenodo.20400637}
 }
 ```
 
