@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dmaker_night"
+version = "1.0.0"
+description = "D-MAKER: Distributed Evidential Reasoning for Interpretable Collaborative Inference"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Haoran Zhang", email = "zhr@stu.xidian.edu.cn" },
+    { name = "Lining Xing", email = "lnxing@xidian.edu.cn" },
+    { name = "Zhijie Zhou" },
+    { name = "Guohui Zhou" },
+    { name = "Wei He" },
+    { name = "Yuanlong Zhang" },
+    { name = "Jun Li" },
+]
+keywords = [
+    "distributed inference",
+    "evidence reasoning",
+    "belief functions",
+    "interpretable inference",
+    "collaborative reasoning",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "matplotlib>=3.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[tool.setuptools]
+packages = ["dmaker_night", "experiments"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q"

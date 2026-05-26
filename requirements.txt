@@ -1,0 +1,10 @@
+# Runtime dependencies for the D-MAKER experimental code.
+# This list is kept in sync with [project.dependencies] in pyproject.toml.
+# The optional UCI Gas dataset loader uses only standard-library urllib,
+# so no extra HTTP package is required.
+numpy>=1.21
+scipy>=1.7
+matplotlib>=3.4
+
+# Development / test extras (also exposed via `pip install -e .[dev]`).
+pytest>=7.0

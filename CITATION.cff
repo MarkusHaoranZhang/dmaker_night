@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this software in academic work, please cite the accompanying paper."
+title: "D-MAKER: Distributed Evidential Reasoning for Interpretable Collaborative Inference"
+url: "https://github.com/MarkusHaoranZhang/dmaker_night"
+repository-code: "https://github.com/MarkusHaoranZhang/dmaker_night"
+authors:
+  - family-names: Zhang
+    given-names: Haoran
+    affiliation: "Xidian University"
+    email: zhr@stu.xidian.edu.cn
+  - family-names: Xing
+    given-names: Lining
+    affiliation: "Xidian University; Jiangsu University of Technology"
+    email: lnxing@xidian.edu.cn
+  - family-names: Zhou
+    given-names: Zhijie
+    affiliation: "Harbin Normal University"
+  - family-names: Zhou
+    given-names: Guohui
+    affiliation: "Harbin Normal University"
+  - family-names: He
+    given-names: Wei
+    affiliation: "Harbin Normal University"
+  - family-names: Zhang
+    given-names: Yuanlong
+    affiliation: "National University of Defense Technology"
+  - family-names: Li
+    given-names: Jun
+    affiliation: "Hunan Institute of Engineering"
+    email: jli@hnie.edu.cn
+version: "1.0.0"
+date-released: "2026-05-26"
+license: MIT
+keywords:
+  - distributed inference
+  - evidence reasoning
+  - belief functions
+  - interpretable inference
+  - collaborative reasoning
+preferred-citation:
+  type: article
+  title: "Distributed Evidential Reasoning for Interpretable Collaborative Inference: The D-MAKER Framework"
+  authors:
+    - family-names: Zhang
+      given-names: Haoran
+    - family-names: Xing
+      given-names: Lining
+    - family-names: Zhou
+      given-names: Zhijie
+    - family-names: Zhou
+      given-names: Guohui
+    - family-names: He
+      given-names: Wei
+    - family-names: Zhang
+      given-names: Yuanlong
+    - family-names: Li
+      given-names: Jun
+  year: 2026
